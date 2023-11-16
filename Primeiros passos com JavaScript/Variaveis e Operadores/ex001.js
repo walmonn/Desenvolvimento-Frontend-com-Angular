@@ -7,4 +7,10 @@
     
 */
 
-console.log('hello');
+const precoCombustivel = 5.79;
+const kmPorLitros = 10;
+const distancia = 100;
+
+const calc = (5.79/10) * 100;
+
+console.log('O valor gasto nesta viagem será de R$ ' + calc.toFixed(2));
