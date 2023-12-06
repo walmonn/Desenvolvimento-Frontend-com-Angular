@@ -15,7 +15,7 @@ function classificarImc(imc){
         return("O Seu IMC é: " + imc.toFixed(2) + " Você esta com Obesidade Morbida");
 }
 
-(function main () {
+(function () {
     const peso = 113;
     const altura = 1.78;
     const imc = calcularImc(peso, altura);
