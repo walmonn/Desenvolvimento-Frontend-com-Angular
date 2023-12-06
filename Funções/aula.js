@@ -19,7 +19,7 @@ whatIsYourName("Luciana");*/
 const resultado = quadrado(2);
 console.log(resultado);*/
 
-/*function incrementarJuros(valor, percentualJuros){
+function incrementarJuros(valor, percentualJuros){
     const valorAcrescido = (percentualJuros / 100) * valor;
     return valorAcrescido + valor;
 
@@ -29,7 +29,7 @@ console.log(incrementarJuros(100, 10));
 console.log(incrementarJuros(100, 15));
 console.log(incrementarJuros(100, 20));
 console.log(incrementarJuros(100, 25));
-*/
+
 
 
 
