@@ -1,5 +1,11 @@
+
+const numeroSorteado = [10, 50, 10, 98, 23, 99, 113, 76, 84, 78, 125, 1];
+let i = 0;
+
 function gets () {
-    return 10;
+    const valor = numeroSorteado[i];
+    i++;
+    return valor;
 
 }
 
